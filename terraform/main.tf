@@ -2,27 +2,27 @@ module "sandbox" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "aws+adminappstg@trivelta.com"
-  AccountName                = "Admin-App-Stg"
-  ManagedOrganizationalUnit = "Stg"
-  SSOUserEmail               = "aws@trivelta.com"
-  SSOUserFirstName           = "Admin"
-  SSOUserLastName            = "AppSTG"
+  AccountEmail               = "null"
+  AccountName                = "null"
+  ManagedOrganizationalUnit = "null"
+  SSOUserEmail               = "null"
+  SSOUserFirstName           = "null"
+  SSOUserLastName            = "null"
 }
 
 account_tags = {
-  env     = "stg"
-  project = "Trivelta"
+  env     = "null"
+  project = "null"
 }
 
 change_management_parameters = {
-  change_requested_by = "aws+jenkinsNonProd@trivelta.com"
-  change_reason       = "Create a new Stg AWS Account"
+  change_requested_by = "null"
+  change_reason       = "null"
 }
 
 custom_fields = {
-  group = "stg"
+  group = "null"
 }
 
-account_customizations_name = "sandbox"
+account_customizations_name = "null"
 }
