@@ -2,27 +2,27 @@ module "sandbox" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "null"
-  AccountName                = "null"
-  ManagedOrganizationalUnit = "null"
-  SSOUserEmail               = "null"
-  SSOUserFirstName           = "null"
-  SSOUserLastName            = "null"
+  AccountEmail               = "finalbets@gmail.com"
+  AccountName                = "finalbets"
+  ManagedOrganizationalUnit = "Dev"
+  SSOUserEmail               = "aws@trivelta.com"
+  SSOUserFirstName           = "finalbets"
+  SSOUserLastName            = "error_no_last_name"
 }
 
 account_tags = {
-  env     = "null"
-  project = "null"
+  env     = "dev"
+  project = "Trivelta"
 }
 
 change_management_parameters = {
-  change_requested_by = "null"
-  change_reason       = "null"
+  change_requested_by = "aws+jenkinsNonProd@trivelta.com"
+  change_reason       = "Create a new Dev AWS Account"
 }
 
 custom_fields = {
-  group = "null"
+  group = "dev"
 }
 
-account_customizations_name = "null"
+account_customizations_name = "sandbox"
 }
