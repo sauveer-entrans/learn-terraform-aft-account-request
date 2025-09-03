@@ -2,12 +2,12 @@ module "sandbox" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "aws+tylerluckbox@trivelta.com"
-  AccountName                = "luckbox"
+  AccountEmail               = "aws+tylertestbox@trivelta.com"
+  AccountName                = "testbox"
   ManagedOrganizationalUnit = "Dev"
   SSOUserEmail               = "aws@trivelta.com"
-  SSOUserFirstName           = "Tyler Graeber"
-  SSOUserLastName            = "error_no_last_name"
+  SSOUserFirstName           = "Tyler"
+  SSOUserLastName            = "Test"
 }
 
 account_tags = {
