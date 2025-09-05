@@ -1,8 +1,8 @@
-module "sandbox" {
+module "luckbox" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "aws+luckbox@trivelta.com"
+  AccountEmail               = "aws+tylerluckbox@trivelta.com"
   AccountName                = "luckbox"
   ManagedOrganizationalUnit = "Dev"
   SSOUserEmail               = "aws@trivelta.com"
