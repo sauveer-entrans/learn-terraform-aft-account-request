@@ -2,7 +2,7 @@ module "betcorrect-stg" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "aws+ajaybetcorrect@trivelta.com"
+  AccountEmail               = "aws+betcorrectstg@trivelta.com"
   AccountName                = "betcorrect-stg"
   ManagedOrganizationalUnit = "Stg"
   SSOUserEmail               = "aws@trivelta.com"
