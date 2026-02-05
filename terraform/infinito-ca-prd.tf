@@ -21,8 +21,8 @@ change_management_parameters = {
 }
 
 custom_fields = {
-  group = ""
+  group = "prod"
 }
 
-account_customizations_name = "prod"
+account_customizations_name = "sandbox"
 }
