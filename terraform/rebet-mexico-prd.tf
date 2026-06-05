@@ -2,27 +2,27 @@ module "rebet-mexico-prd" {
 source = "./modules/aft-account-request"
 
 control_tower_parameters = {
-  AccountEmail               = "aws+rebetmexicoprd@trivelta.com"
+  AccountEmail               = ""
   AccountName                = "rebet-mexico-prd"
-  ManagedOrganizationalUnit = "Prd"
-  SSOUserEmail               = "aws@trivelta.com"
-  SSOUserFirstName           = "Chris"
-  SSOUserLastName            = "McMahon"
+  ManagedOrganizationalUnit = ""
+  SSOUserEmail               = ""
+  SSOUserFirstName           = ""
+  SSOUserLastName            = ""
 }
 
 account_tags = {
   env     = "prod"
-  project = "Trivelta"
+  project = ""
 }
 
 change_management_parameters = {
-  change_requested_by = "aws+jenkinsNonProd@trivelta.com"
-  change_reason       = "Create a new Dev AWS Account"
+  change_requested_by = ""
+  change_reason       = ""
 }
 
 custom_fields = {
-  group = "prod"
+  group = ""
 }
 
-account_customizations_name = "sandbox"
+account_customizations_name = ""
 }
