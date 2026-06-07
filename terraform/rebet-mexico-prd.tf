@@ -17,7 +17,7 @@ account_tags = {
 
 change_management_parameters = {
   change_requested_by = "aws+jenkinsNonProd@trivelta.com"
-  change_reason       = "Create a new Dev AWS Account"
+  change_reason       = "Create a new AWS Account"
 }
 
 custom_fields = {
